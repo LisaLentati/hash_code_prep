@@ -1,7 +1,6 @@
 from src import bests, read_data
 
 
-dict = read_data.read_data('data/b_little_bit_of_everything.in')[4]
+pairs = bests.twos(read_data.read_data('data/b_little_bit_of_everything.in')[4])
 
-
-print(bests.threes(dict))
+print(pairs)
