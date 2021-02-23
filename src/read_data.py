@@ -28,7 +28,8 @@ def read_data(file_url):
 
 if __name__ == '__main__':
     url = './data/d_many_pizzas.in'
-    n,_,_,_,pizzas_dict = read_data(url)
+    n,t1,t2,t3,pizzas_dict = read_data(url)
+    print(t1,t2,t3)
     print(pizzas_dict[0] )
     print(pizzas_dict[n-5] )
 
