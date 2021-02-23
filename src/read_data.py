@@ -8,7 +8,7 @@ def read_data(file_url):
     n_pizza = info_line[0]
     n_T2 = info_line[1]
     n_T3 = info_line[2]
-    n_T3 = info_line[3]
+    n_T4 = info_line[3]
     
     pizzas = dict()
     for i in range(n_pizza): 
