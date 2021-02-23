@@ -14,7 +14,7 @@ def twos(pizza_dict):
             pairs[(i,j)] = [distinct, len_pizza_1, len_pizza_2]
             
     
-    return sorted(pairs.items(), key = lambda item: item[1][0])
+    return pairs
         
 
 def threes(pizza_dict):
@@ -33,7 +33,7 @@ def threes(pizza_dict):
                 pairs[(i,j,k)] = [distinct, len_pizza_1, len_pizza_2, len_pizza_3]
             
     
-    return sorted(pairs.items(), key = lambda item: item[1][0])
+    return pairs
     
 
 def fours(pizza_dict):
@@ -54,4 +54,4 @@ def fours(pizza_dict):
                     pairs[(i,j,k,l)] = [distinct, len_pizza_1, len_pizza_2, len_pizza_3, len_pizza_4]
             
     
-    return sorted(pairs.items(), key = lambda item: item[1][0])
+    return pairs
