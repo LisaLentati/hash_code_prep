@@ -17,7 +17,7 @@ def read_data(file_url):
 
     my_file.close
 
-    return n_pizza, n_T2, n_T3, n_T3, pizzas
+    return n_pizza, n_T2, n_T3, n_T4, pizzas
 
 
 
